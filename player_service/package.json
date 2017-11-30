@@ -1,0 +1,19 @@
+{
+  "name": "command_server",
+  "version": "1.0.0",
+  "description": "Checkers command server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "Justin Beaudry <beaudry.justin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "micro-dev": "^1.4.0"
+  },
+  "dependencies": {
+    "micro": "^9.0.2"
+  }
+}
